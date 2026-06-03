@@ -23,20 +23,20 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim Animation4 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
-        Dim Animation3 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim Animation2 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
+        Dim Animation1 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         btn_entrar = New Guna.UI2.WinForms.Guna2Button()
         Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(components)
@@ -60,7 +60,7 @@ Partial Class Form1
         btn_entrar.AutoRoundedCorners = True
         btn_entrar.BackColor = Color.Transparent
         btn_entrar.BorderStyle = Drawing2D.DashStyle.Dash
-        btn_entrar.CustomizableEdges = CustomizableEdges13
+        btn_entrar.CustomizableEdges = CustomizableEdges1
         Guna2Transition2.SetDecoration(btn_entrar, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition1.SetDecoration(btn_entrar, Guna.UI2.AnimatorNS.DecorationType.None)
         btn_entrar.DisabledState.BorderColor = Color.DarkGray
@@ -73,7 +73,7 @@ Partial Class Form1
         btn_entrar.Location = New Point(374, 283)
         btn_entrar.Margin = New Padding(2)
         btn_entrar.Name = "btn_entrar"
-        btn_entrar.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        btn_entrar.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btn_entrar.Size = New Size(141, 48)
         btn_entrar.TabIndex = 8
         btn_entrar.Text = "Entrar"
@@ -90,7 +90,7 @@ Partial Class Form1
         ' 
         txt_senha.BackColor = Color.Transparent
         txt_senha.BorderRadius = 25
-        txt_senha.CustomizableEdges = CustomizableEdges15
+        txt_senha.CustomizableEdges = CustomizableEdges11
         Guna2Transition2.SetDecoration(txt_senha, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition1.SetDecoration(txt_senha, Guna.UI2.AnimatorNS.DecorationType.None)
         txt_senha.DefaultText = ""
@@ -109,7 +109,7 @@ Partial Class Form1
         txt_senha.PasswordChar = "*"c
         txt_senha.PlaceholderText = "Senha"
         txt_senha.SelectedText = ""
-        txt_senha.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txt_senha.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         txt_senha.Size = New Size(281, 29)
         txt_senha.TabIndex = 9
         ' 
@@ -117,7 +117,7 @@ Partial Class Form1
         ' 
         txt_usuario.BackColor = Color.Transparent
         txt_usuario.BorderRadius = 25
-        txt_usuario.CustomizableEdges = CustomizableEdges17
+        txt_usuario.CustomizableEdges = CustomizableEdges9
         Guna2Transition2.SetDecoration(txt_usuario, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition1.SetDecoration(txt_usuario, Guna.UI2.AnimatorNS.DecorationType.None)
         txt_usuario.DefaultText = ""
@@ -135,14 +135,14 @@ Partial Class Form1
         txt_usuario.Name = "txt_usuario"
         txt_usuario.PlaceholderText = "Usuario"
         txt_usuario.SelectedText = ""
-        txt_usuario.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        txt_usuario.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         txt_usuario.Size = New Size(281, 29)
         txt_usuario.TabIndex = 10
         ' 
         ' Guna2GradientPanel1
         ' 
         Guna2GradientPanel1.Controls.Add(Guna2PictureBox1)
-        Guna2GradientPanel1.CustomizableEdges = CustomizableEdges21
+        Guna2GradientPanel1.CustomizableEdges = CustomizableEdges7
         Guna2Transition1.SetDecoration(Guna2GradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition2.SetDecoration(Guna2GradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2GradientPanel1.FillColor = Color.FromArgb(CByte(10), CByte(61), CByte(102))
@@ -150,14 +150,14 @@ Partial Class Form1
         Guna2GradientPanel1.Location = New Point(-8, -5)
         Guna2GradientPanel1.Margin = New Padding(2)
         Guna2GradientPanel1.Name = "Guna2GradientPanel1"
-        Guna2GradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2GradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2GradientPanel1.Size = New Size(290, 402)
         Guna2GradientPanel1.TabIndex = 11
         ' 
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.BackColor = Color.Transparent
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges19
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges5
         Guna2Transition2.SetDecoration(Guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition1.SetDecoration(Guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2PictureBox1.Image = CType(resources.GetObject("Guna2PictureBox1.Image"), Image)
@@ -165,7 +165,7 @@ Partial Class Form1
         Guna2PictureBox1.Location = New Point(-76, 2)
         Guna2PictureBox1.Margin = New Padding(2)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2PictureBox1.Size = New Size(463, 273)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 0
@@ -174,7 +174,7 @@ Partial Class Form1
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges23
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges3
         Guna2Transition2.SetDecoration(Guna2PictureBox2, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2Transition1.SetDecoration(Guna2PictureBox2, Guna.UI2.AnimatorNS.DecorationType.None)
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
@@ -182,7 +182,7 @@ Partial Class Form1
         Guna2PictureBox2.Location = New Point(391, 41)
         Guna2PictureBox2.Margin = New Padding(2)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2PictureBox2.Size = New Size(99, 89)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 12
@@ -191,22 +191,22 @@ Partial Class Form1
         ' Guna2Transition1
         ' 
         Guna2Transition1.Cursor = Nothing
-        Animation4.AnimateOnlyDifferences = True
-        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), PointF)
-        Animation4.LeafCoeff = 0F
-        Animation4.MaxTime = 1F
-        Animation4.MinTime = 0F
-        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), PointF)
-        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), PointF)
-        Animation4.MosaicSize = 0
-        Animation4.Padding = New Padding(0)
-        Animation4.RotateCoeff = 0F
-        Animation4.RotateLimit = 0F
-        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), PointF)
-        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), PointF)
-        Animation4.TimeCoeff = 0F
-        Animation4.TransparencyCoeff = 0F
-        Guna2Transition1.DefaultAnimation = Animation4
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), PointF)
+        Animation2.LeafCoeff = 0F
+        Animation2.MaxTime = 1F
+        Animation2.MinTime = 0F
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), PointF)
+        Animation2.MosaicSize = 0
+        Animation2.Padding = New Padding(0)
+        Animation2.RotateCoeff = 0F
+        Animation2.RotateLimit = 0F
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), PointF)
+        Animation2.TimeCoeff = 0F
+        Animation2.TransparencyCoeff = 0F
+        Guna2Transition1.DefaultAnimation = Animation2
         ' 
         ' LinkLabel1
         ' 
@@ -225,22 +225,22 @@ Partial Class Form1
         ' Guna2Transition2
         ' 
         Guna2Transition2.Cursor = Nothing
-        Animation3.AnimateOnlyDifferences = True
-        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), PointF)
-        Animation3.LeafCoeff = 0F
-        Animation3.MaxTime = 1F
-        Animation3.MinTime = 0F
-        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), PointF)
-        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), PointF)
-        Animation3.MosaicSize = 0
-        Animation3.Padding = New Padding(0)
-        Animation3.RotateCoeff = 0F
-        Animation3.RotateLimit = 0F
-        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), PointF)
-        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), PointF)
-        Animation3.TimeCoeff = 0F
-        Animation3.TransparencyCoeff = 0F
-        Guna2Transition2.DefaultAnimation = Animation3
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), PointF)
+        Animation1.LeafCoeff = 0F
+        Animation1.MaxTime = 1F
+        Animation1.MinTime = 0F
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New Padding(0)
+        Animation1.RotateCoeff = 0F
+        Animation1.RotateLimit = 0F
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), PointF)
+        Animation1.TimeCoeff = 0F
+        Animation1.TransparencyCoeff = 0F
+        Guna2Transition2.DefaultAnimation = Animation1
         ' 
         ' Form1
         ' 
